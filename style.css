@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -83,4 +84,44 @@ footer{
 footer h1{
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+.recipies_blog img{
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    
+}
+.recipies-section{
+    padding:20px 0;
+    margin: 2%;
+    
+}
+.recipies-section h1{
+    text-align:center;
+    padding-top: 50px;
+    font-size: 36px;
+    color:#575757;
+}
+.recipies-section p{
+    text-align:center;
+    margin: 20px 0;
+    
+}
+
+.recipies_blog div{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 25px;
+    margin: 20px ;
+   
+}
+.recipies_content p,img{
+    text-align: left;
+    padding: 20px ;
+}
+.recipies_content h1{
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: left;
+    padding:0 20px;
+    
 }
