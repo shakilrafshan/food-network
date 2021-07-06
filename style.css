@@ -80,9 +80,10 @@ body{
 }
 .recipies-section h1{
     text-align:center;
-    padding-top: 50px;
+    padding: 35px 0;
     font-size: 36px;
     color:#575757;
+    
 }
 .recipies-section p{
     text-align:center;
@@ -117,15 +118,47 @@ body{
 
 /* recipies section finish  */
 
+
+/* footer section start */
 footer{
     background-color:black;
     padding: 50px 0;
    text-align: center;
    font-size: 16px;
-   color:gray ;
+   color:aliceblue ;
     
 }
 footer h1{
     text-transform: uppercase;
     margin-bottom: 20px;
+    
 }
+
+
+/* footer section finish */
+
+/* last/extra section start */
+
+.last_sction{
+    background-image: url(images/bgphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:250px 0;}
+
+.last_sction h1{
+color: white;
+text-transform: uppercase;
+font-size: 70px;
+font-weight: 900px;
+text-align:center;
+}
+.last_sction p{
+color: wheat;
+text-transform: capitalize;
+font-size: 50px;
+text-align:center;
+}
+.last_sction span{
+    padding-left:100px;
+}
+/* last/extra section finish */
